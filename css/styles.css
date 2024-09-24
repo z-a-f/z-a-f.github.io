@@ -1,0 +1,52 @@
+/* css/styles.css */
+
+/* Header Section */
+header {
+    /* background: url('https://unsplash.it/id/1/1024/400') no-repeat center center; */
+    background: cornflowerblue;
+    opacity: 0.8;
+    background-size: cover;
+    color: cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content:space-between;
+  flex-direction:column;
+}
+
+/* TODO(z-a-f): Uncomment and replace 'YourFontName' with your font name */
+/* body {
+    font-family: 'YourFontName', sans-serif;
+} */
+
+header .btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #482880;
+}
+
+/* Features Section */
+#features h2 {
+    font-weight: 700;
+}
+
+/* Adjust image sizes */
+#features .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sign-Up Section */
+#signup .form-control {
+    height: 50px;
+    font-size: 18px;
+}
+
+#signup .btn {
+    height: 50px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}
