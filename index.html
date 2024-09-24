@@ -28,9 +28,9 @@
     <!-- Font Awesome 6 Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=YourFontName&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=YourFontName&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -254,7 +254,10 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-Z6BYHB1R0X');
+        gtag('config', 'G-Z6BYHB1R0X', {
+            cookie_domain: 'z-a-f.github.io',
+            // cookie_flags: 'SameSite=None;Secure'
+        });
     </script>
 
     <!-- Year -->
