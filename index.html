@@ -9,9 +9,10 @@
 
     <!-- SEO -->
     <meta name="description"
-        content="ManagAI is an AI-powered tool designed to empower managers by automating meetings, aligning goals, and optimizing team resources.">
+        content="ManagAI offers a suite of AI assistants for effective managers. Choose the perfect AI companion to streamline your management tasks.">
     <meta name="keywords"
-        content="ManagAI, AI tool for managers, Team Management, OKR Alignment, Resource Allocation, Productivity">
+        content="ManagAI, AI assistants, management tools, team management, productivity, AI for managers">
+
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="ManagAI - Empower Your Management with AI">
@@ -35,21 +36,23 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">ManagAI</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="#introduction">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#demo">Demo</a>
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#signup">Sign Up</a>
@@ -59,19 +62,97 @@
         </div>
     </nav>
 
+
     <!-- Header Section -->
     <header class="text-center bg-primary text-white">
         <div class="container py-5">
-            <h1 class="display-4">Empower Your Management with AI</h1>
+            <h1 class="display-4">Enhance Your Management with AI</h1>
             <p class="lead">
-                An AI tool designed to amplify your leadership, streamline team operations, and drive productivity.
+                Choose from our range of AI assistants designed to streamline your management tasks.
             </p>
             <a href="#signup" class="btn btn-light btn-lg mt-3">Join the Waitlist</a>
         </div>
     </header>
 
-    <!-- Features Section -->
-    <section id="features" class="py-5">
+    <!-- Introduction Section -->
+    <section id="introduction" class="py-5">
+        <div class="container text-center">
+            <h2>Meet ManagAI's AI Assistants</h2>
+            <p class="mb-4">
+                Discover the perfect AI companion to elevate your management effectiveness, from personal assistants to
+                autonomous team guides.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <section id="products" class="py-5 bg-light">
+        <div class="container text-center">
+            <!-- Product 1: Assist -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="https://unsplash.it/id/1011/600/400" alt="Assist - Personal AI Assistant"
+                        class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-md-6">
+                    <h2>Assist</h2>
+                    <p>
+                        An AI assistant that supports your day-to-day activities. From individual planning and
+                        scheduling to note-taking, Assist helps you stay organized and efficient.
+                    </p>
+                </div>
+            </div>
+            <!-- Product 2: Copilot -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 order-md-2">
+                    <img src="https://unsplash.it/id/1001/600/400" alt="Copilot - Your AI Coworker" class="img-fluid"
+                        loading="lazy">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h2>Copilot</h2>
+                    <p>
+                        Copilot integrates into your management workflow, offering proactive suggestions and
+                        facilitating cross-team communication. It includes all Assist features plus team-level planning
+                        and insights.
+                    </p>
+                </div>
+            </div>
+            <!-- Product 3: Guide -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <img src="https://unsplash.it/id/1015/600/400" alt="Guide - Autonomous Team Management"
+                        class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-md-6">
+                    <h2>Guide</h2>
+                    <p>
+                        Guide operates independently to manage individual meetings, cross-team collaborations, and
+                        resource allocations. It encompasses all Copilot functionalities with added autonomy.
+                    </p>
+                </div>
+            </div>
+            <!-- Product 4: Boost -->
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2">
+                    <img src="https://unsplash.it/id/1021/600/400" alt="Boost - AI for Large Scale Management"
+                        class="img-fluid" loading="lazy">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h2>Boost</h2>
+                    <p>
+                        Boost is our most capable AI assistant, ideal for managing large teams and complex projects. It
+                        offers all Guide features plus strategic decision-making capabilities like promotions,
+                        demotions, and dynamic priority adjustments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Features Section -- Hiding for now -->
+    <section id="features" class="py-5" style="display: none;">
         <div class="container">
             <!-- Feature 1 -->
             <div class="row align-items-center mb-5">
@@ -82,7 +163,8 @@
                 <div class="col-md-6">
                     <h2>Downward OKR Propagation</h2>
                     <p>
-                        Seamlessly split organizational OKRs into team and personal objectives, ensuring alignment at
+                        Seamlessly split organizational OKRs into team and personal objectives, ensuring alignment
+                        at
                         all levels.
                     </p>
                 </div>
@@ -97,7 +179,8 @@
                 <div class="col-md-6 order-md-1">
                     <h2>Automated Weekly Meeting Assistant</h2>
                     <p>
-                        Facilitate team meetings, raise concerns, collect updates, and resolve conflicts with AI-powered
+                        Facilitate team meetings, raise concerns, collect updates, and resolve conflicts with
+                        AI-powered
                         assistance.
                     </p>
                 </div>
@@ -112,7 +195,8 @@
                 <div class="col-md-6">
                     <h2>1:1 Meeting Support</h2>
                     <p>
-                        Keep individual team members updated on their progress and collect personal feedback seamlessly.
+                        Keep individual team members updated on their progress and collect personal feedback
+                        seamlessly.
                     </p>
                 </div>
             </div>
@@ -126,7 +210,8 @@
                 <div class="col-md-6 order-md-1">
                     <h2>Manager's AI Dashboard</h2>
                     <p>
-                        Summarize projects and teams, get progress updates, and receive actionable recommendations to
+                        Summarize projects and teams, get progress updates, and receive actionable recommendations
+                        to
                         inform your decisions.
                     </p>
                 </div>
@@ -141,7 +226,8 @@
                 <div class="col-md-6">
                     <h2>Team Resource Allocation</h2>
                     <p>
-                        Assign tasks to the most suitable team members and allocate additional support where it's needed
+                        Assign tasks to the most suitable team members and allocate additional support where it's
+                        needed
                         most, optimizing team efficiency.
                     </p>
                 </div>
@@ -179,50 +265,233 @@
         </div>
     </section>
 
-    <!-- Sign-Up Section -->
-    <!-- <section id="signup" class="py-5">
-        <div class="container" id="ff-compose">
-            <h2 class="text-center">Stay Updated</h2>
-            <p class="text-center mb-4">
-                Sign up to receive the latest news and updates about our platform.
-            </p>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form action="https://formspree.io/f/your_actual_form_id" method="POST"
-                        onsubmit="return handleFormSubmit(event);">
-                        <div class="mb-3">
-                            <input type="email" name="email" class="form-control" placeholder="Enter your email"
-                                required>
+
+    <!-- Pricing Cards Section -->
+    <section id="pricing" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Choose Your Plan</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Assist</h3>
+                            <p class="card-text">$TBD / User / Month</p>
+                            <a href="#signup" class="btn btn-primary">Get Started</a>
                         </div>
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg">
-                                Sign Up
-                            </button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Copilot</h3>
+                            <p class="card-text">$TBD / User / Month</p>
+                            <a href="#signup" class="btn btn-primary">Get Started</a>
                         </div>
-                    </form>
-                    <div id="form-response" class="mt-3"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Guide</h3>
+                            <p class="card-text">$TBD / User / Month</p>
+                            <a href="#signup" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Boost</h3>
+                            <p class="card-text">$TBD / User / Month</p>
+                            <a href="#signup" class="btn btn-primary">Contact</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSejaFpZVYIujehyHF2F2ldRMqPevvekFLz4Y5VdFkN-EnnwQQ/viewform?embedded=true" width="640" height="375" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </section> -->
+        <!-- </section> -->
+
+        <!-- Features Comparison Table -->
+        <!-- <section id="comparison" class="py-5"> -->
+        <div class="container">
+            <!-- <h2 class="text-center mb-4">Compare Our AI Assistants</h2> -->
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <!-- Features -->
+                    <thead class="table-light">
+                        <tr>
+                            <th></th>
+                            <th scope="col">Assist</th>
+                            <th scope="col">Copilot</th>
+                            <th scope="col">Guide</th>
+                            <th scope="col">Boost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Features Category -->
+                        <tr>
+                            <th colspan="5" class="table-active text-center">Features</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Upwards Report Compilation</th>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Individual Planning & Scheduling</th>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Note-Taking and Brag-Doc Compilation</th>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Team-Level Planning</th>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Proactive Suggestions</th>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cross-Team Communication</th>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Independent Meeting Management</th>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Resource Allocation Across Teams</th>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Strategic Decision-Making</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <!-- Dashboards and Tools Category -->
+                        <tr>
+                            <th colspan="5" class="table-active text-center">Dashboards and Tools</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Individual Dashboard</th>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Team Dashboard</th>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cross-Team Resource Dashboard</th>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Strategic Roadmap and Planning Dashboard</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <!-- Integrations Category -->
+                        <tr>
+                            <th colspan="5" class="table-active text-center">Integrations</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Google Work Suite</th>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">SAP</th>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Salesforce</th>
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">&#10003;</td>
+                            <td class="text-center">&#10003;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Call-to-Action Section -->
+    <section id="call-to-action" class="py-5 text-center" style="display: none;">
+        <div class="container text-center">
+            <h2>Find the Right AI Assistant for You</h2>
+            <p class="mb-4">
+                Whether you need personal assistance or a full-scale management partner, ManagAI has the solution.
+            </p>
+            <a href="#signup" class="btn btn-primary btn-lg">Join the Waitlist</a>
+        </div>
+    </section>
     <!-- Sign-Up Section -->
     <section id="signup" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Stay Updated</h2>
-            <p class="text-center mb-4">
-                Sign up to receive the latest news and updates about our platform.
+        <div class="container text-center">
+            <!-- <h2>Join the Waitlist</h2>
+            <p class="mb-4">
+                Be the first to know when ManagAI launches. Select the AI assistant that interests you.
+            </p> -->
+            <h2>Find the Right AI Assistant for You</h2>
+            <p class="mb-4">
+                Whether you need personal assistance or a full-scale management partner, ManagAI has the solution.
             </p>
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <!-- Embedded Google Form -->
                     <iframe
                         src="https://docs.google.com/forms/d/e/1FAIpQLSejaFpZVYIujehyHF2F2ldRMqPevvekFLz4Y5VdFkN-EnnwQQ/viewform?embedded=true"
-                        width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="py-4 bg-dark text-white">
@@ -264,7 +533,7 @@
     <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
 
     <!-- Form submission -->
-    <script>
+    <!-- <script>
         function handleFormSubmit(event) {
             event.preventDefault();
             // Handle form submission with AJAX or display a message
@@ -273,7 +542,7 @@
             event.target.reset();
             return false;
         }
-    </script>
+    </script> -->
     <!-- <script async defer src="https://formfacade.com/include/112748790281557331982/form/1FAIpQLSejaFpZVYIujehyHF2F2ldRMqPevvekFLz4Y5VdFkN-EnnwQQ/bootstrap.js?div=ff-compose"></script> -->
 </body>
 

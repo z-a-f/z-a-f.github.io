@@ -21,8 +21,9 @@ header {
 header .btn {
     margin-top: 20px;
     color: #fff;
-    background-color: #482880;
+    background-color: rgb(61, 91, 146);
 }
+
 
 /* Features Section */
 #features h2 {
